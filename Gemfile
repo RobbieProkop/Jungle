@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.1'
+# ruby '2.7.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '6.1.5.1'
+# gem 'rails', '5.2.8'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -33,6 +35,9 @@ gem 'font-awesome-rails'
 
 # Money managing
 gem 'money-rails'
+
+# trying to get reload to work.
+gem "view_component", require: "view_component/engine"
 
 # Stripe
 gem 'stripe'
