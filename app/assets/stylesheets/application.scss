@@ -91,7 +91,8 @@ form.button_to {
 }
 
 .sticky-nav {
-  background: green;
+  background: #41630f;
+  // background: #80a71a;
   position: sticky;
   top: 0;
   z-index: 900;
@@ -109,5 +110,5 @@ form.button_to {
   margin: 3em 0;
 }
 .text-danger {
-  color: #f38792 !important;
+  color: #fdcf73 !important;
 }
