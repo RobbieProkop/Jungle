@@ -1,6 +1,8 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. I made this using Vagrant VM. I found that cypress testing didn't work well because of this. Anyway, enjoy the app!
+
+<img src="" />
 
 ## Setup
 
